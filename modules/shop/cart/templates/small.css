@@ -1,0 +1,30 @@
+header .mw-cart-small {
+    display: inline-block;
+    margin-top: -10px;
+    margin-left: 20px;
+    text-decoration: none;
+    float: right;
+}
+
+header .mw-cart-small span {
+    display: inline-block;
+    color: #3b3b3b;
+    font-size: 15px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin: 0 5px;
+}
+
+header .mw-cart-small span.bag {
+    width: 32px;
+    height: 32px;
+    background: url(../img/bag.png);
+    color: #5f5f5f;
+    padding: 7px 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+header .mw-cart-small:hover span {
+    color: #afafaf;
+}
